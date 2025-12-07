@@ -21,4 +21,4 @@ def item(id):
 def lista():
     return render_template("cursos.html", itens=cursos)
 
-app.run(debug=True)
+app.run(host='0.0.0.0', port='80')
